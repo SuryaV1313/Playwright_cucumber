@@ -9,7 +9,27 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@cucumber/cucumber": "^12.8.3",
     "@playwright/test": "^1.59.1",
-    "@types/node": "^25.6.2"
-  }
+    "@types/node": "^25.6.2",
+    "multiple-cucumber-html-reporter": "^3.10.0",
+    "ts-node": "^10.9.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "playwright": "^1.59.1",
+    "playwright-core": "^1.59.1",
+    "undici-types": "^7.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuryaV1313/Playwright_cucumber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SuryaV1313/Playwright_cucumber/issues"
+  },
+  "homepage": "https://github.com/SuryaV1313/Playwright_cucumber#readme"
 }
