@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "cucumber-js",
+    "report": "node report.js",
+    "test:report": "cucumber-js ; node report.js ; start reports/html/index.html"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
