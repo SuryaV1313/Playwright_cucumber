@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1763835900
+              "duration": 706874700
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 932058399
+              "duration": 977603200
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 388921699
+              "duration": 285262899
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23603399
+              "duration": 16170799
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 502248499
+              "duration": 407716400
             }
           }
         ],
@@ -75,5 +75,82 @@
     "name": "Login",
     "tags": [],
     "uri": "features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;successful-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 722977599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is navigated to login page",
+            "match": {
+              "location": "features\\step-definitions\\login2.spec.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2274908900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user check the fields and button are accessible",
+            "match": {
+              "location": "features\\step-definitions\\login2.spec.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69602500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user sees  when he can successfully login and successful text in dashboard",
+            "match": {
+              "location": "features\\step-definitions\\login2.spec.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 994284100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 291166800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login2.feature"
   }
 ]

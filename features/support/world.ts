@@ -6,6 +6,7 @@ class CustomWorld {
   context!: BrowserContext;
   page!: Page;
   loginPage: any;
+  login2: any;
   // userpage: any;
 }
 
